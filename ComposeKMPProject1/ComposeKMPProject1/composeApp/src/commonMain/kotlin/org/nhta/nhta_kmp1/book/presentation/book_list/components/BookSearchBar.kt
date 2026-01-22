@@ -1,6 +1,9 @@
 package org.nhta.nhta_kmp1.book.presentation.book_list.components
 
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextFieldDefaults
@@ -35,7 +38,10 @@ fun BookSearchBar(
             )
         },
         leadingIcon = {
-
+            Icon(
+                imageVector = Icons.Filled.Search,
+                contentDescription = null
+            )
         }
     )
 }
