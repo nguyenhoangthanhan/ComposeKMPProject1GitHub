@@ -1,7 +1,9 @@
-package org.nhta.nhta_kmp1.core.domain
+package org.nhta.nhta_kmp1.book.domain
 
 import kotlinx.coroutines.flow.Flow
-import org.nhta.nhta_kmp1.book.domain.Book
+import org.nhta.nhta_kmp1.core.domain.DataError
+import org.nhta.nhta_kmp1.core.domain.EmptyResult
+import org.nhta.nhta_kmp1.core.domain.Result
 
 interface BookRepository {
     suspend fun searchBooks(query: String): Result<List<Book>, DataError.Remote>

@@ -1,4 +1,4 @@
-package org.nhta.nhta_kmp1.core.data.dto
+package org.nhta.nhta_kmp1.book.data.dto
 import kotlinx.serialization.Serializable
 
 @Serializable

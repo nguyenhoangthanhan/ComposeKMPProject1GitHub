@@ -1,4 +1,4 @@
-package org.nhta.nhta_kmp1.core.data.database
+package org.nhta.nhta_kmp1.book.data.database
 
 import androidx.room.RoomDatabase
 

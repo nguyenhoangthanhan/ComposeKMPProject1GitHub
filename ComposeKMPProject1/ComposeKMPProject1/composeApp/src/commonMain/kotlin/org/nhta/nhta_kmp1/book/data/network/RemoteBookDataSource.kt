@@ -1,7 +1,7 @@
-package org.nhta.nhta_kmp1.core.data.network
+package org.nhta.nhta_kmp1.book.data.network
 
-import org.nhta.nhta_kmp1.core.data.dto.BookWorkDto
-import org.nhta.nhta_kmp1.core.data.dto.SearchResponseDto
+import org.nhta.nhta_kmp1.book.data.dto.BookWorkDto
+import org.nhta.nhta_kmp1.book.data.dto.SearchResponseDto
 import org.nhta.nhta_kmp1.core.domain.DataError
 import org.nhta.nhta_kmp1.core.domain.Result
 

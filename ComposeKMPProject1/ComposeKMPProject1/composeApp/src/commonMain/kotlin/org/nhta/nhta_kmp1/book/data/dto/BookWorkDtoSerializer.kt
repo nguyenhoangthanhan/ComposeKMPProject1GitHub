@@ -1,4 +1,4 @@
-package org.nhta.nhta_kmp1.core.data.dto
+package org.nhta.nhta_kmp1.book.data.dto
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.SerializationException
@@ -13,7 +13,6 @@ import kotlinx.serialization.encoding.encodeStructure
 import kotlinx.serialization.json.JsonDecoder
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
-import kotlinx.serialization.json.decodeFromJsonElement
 
 object BookWorkDtoSerializer: KSerializer<BookWorkDto> {
 
