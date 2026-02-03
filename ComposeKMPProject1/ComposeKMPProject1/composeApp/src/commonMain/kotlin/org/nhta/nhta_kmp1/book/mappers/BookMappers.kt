@@ -1,7 +1,7 @@
 package org.nhta.nhta_kmp1.book.mappers
 
+import org.nhta.nhta_kmp1.book.data.database.BookEntity
 import org.nhta.nhta_kmp1.book.domain.Book
-import org.nhta.nhta_kmp1.core.data.database.BookEntity
 import org.nhta.nhta_kmp1.book.data.dto.SearchedBookDto
 
 fun SearchedBookDto.toBook(): Book {
