@@ -109,28 +109,28 @@ fun BookListItem(
                         modifier = Modifier.size(60.dp)
                     )
                     else -> {
-                        Image(
-                            painter = if (result.isSuccess) painter else {
-                                painterResource(Res.drawable.book_error_2)
-                            },
-                            contentDescription = book.title,
-                            contentScale = if (result.isSuccess) {
-                                ContentScale.Crop
-                            } else {
-                                ContentScale.Fit
-                            },
-                            modifier = Modifier
-                                .aspectRatio(
-                                    ratio = 0.65f,
-                                    matchHeightConstraintsFirst = true
-                                )
-                                .graphicsLayer {
-                                    rotationX = (1f - transition) * 30f
-                                    val scale = 0.8f + (0.2f * transition)
-                                    scaleX = scale
-                                    scaleY = scale
-                                }
-                        )
+//                        Image(
+//                            painter = if (result.isSuccess) painter else {
+//                                painterResource(Res.drawable.book_error_2)
+//                            },
+//                            contentDescription = book.title,
+//                            contentScale = if (result.isSuccess) {
+//                                ContentScale.Crop
+//                            } else {
+//                                ContentScale.Fit
+//                            },
+//                            modifier = Modifier
+//                                .aspectRatio(
+//                                    ratio = 0.65f,
+//                                    matchHeightConstraintsFirst = true
+//                                )
+//                                .graphicsLayer {
+//                                    rotationX = (1f - transition) * 30f
+//                                    val scale = 0.8f + (0.2f * transition)
+//                                    scaleX = scale
+//                                    scaleY = scale
+//                                }
+//                        )
                     }
                 }
             }

@@ -6,8 +6,3 @@ import kotlinx.serialization.Serializable
 data class BookWorkDto(
     val description: String? = null
 )
-
-@Serializable
-data class DescriptionDto(
-    val value: String
-)
