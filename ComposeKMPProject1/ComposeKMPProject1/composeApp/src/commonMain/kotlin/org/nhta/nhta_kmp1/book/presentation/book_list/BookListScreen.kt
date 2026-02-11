@@ -48,19 +48,19 @@ import org.nhta.nhta_kmp1.core.presentation.SandYellow
 
 @Composable
 fun BookListScreenRoot(
-    viewModel: BookListViewModel = koinViewModel(),
+    viewModel: BookListViewModel? = null,
     onBookClick: (Book) -> Unit,
 ) {
-    val state by viewModel.state.collectAsStateWithLifecycle()
+//    val state by viewModel.state.collectAsStateWithLifecycle()
 
     BookListScreen(
-        state = state,
+        state = BookListState(),
         onAction = { action ->
-            when(action) {
-                is BookListAction.OnBookClick -> onBookClick(action.book)
-                else -> Unit
-            }
-            viewModel.onAction(action)
+//            when(action) {
+//                is BookListAction.OnBookClick -> onBookClick(action.book)
+//                else -> Unit
+//            }
+//            viewModel.onAction(action)
         }
     )
 }
