@@ -13,9 +13,7 @@ import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.koin.compose.viewmodel.koinViewModel
-import org.nhta.nhta_kmp1.book.SelectedBookViewModel
 import org.nhta.nhta_kmp1.book.presentation.book_list.BookListScreenRoot
-import org.nhta.nhta_kmp1.book.presentation.book_list.BookListViewModel
 
 
 @Composable
