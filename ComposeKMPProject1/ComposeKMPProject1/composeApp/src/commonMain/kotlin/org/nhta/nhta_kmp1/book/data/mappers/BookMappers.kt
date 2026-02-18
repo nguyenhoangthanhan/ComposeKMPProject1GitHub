@@ -1,4 +1,4 @@
-package org.nhta.nhta_kmp1.book.mappers
+package org.nhta.nhta_kmp1.book.data.mappers
 
 import org.nhta.nhta_kmp1.book.data.database.BookEntity
 import org.nhta.nhta_kmp1.book.domain.Book

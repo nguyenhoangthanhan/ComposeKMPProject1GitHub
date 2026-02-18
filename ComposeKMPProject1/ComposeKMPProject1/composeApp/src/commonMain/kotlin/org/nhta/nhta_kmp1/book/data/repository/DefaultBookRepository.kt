@@ -6,9 +6,9 @@ import kotlinx.coroutines.flow.map
 import org.nhta.nhta_kmp1.book.data.database.FavoriteBookDao
 import org.nhta.nhta_kmp1.book.data.network.RemoteBookDataSource
 import org.nhta.nhta_kmp1.book.domain.Book
-import org.nhta.nhta_kmp1.book.mappers.toBookEntity
+import org.nhta.nhta_kmp1.book.data.mappers.toBookEntity
 import org.nhta.nhta_kmp1.book.domain.BookRepository
-import org.nhta.nhta_kmp1.book.mappers.toBook
+import org.nhta.nhta_kmp1.book.data.mappers.toBook
 import org.nhta.nhta_kmp1.core.domain.DataError
 import org.nhta.nhta_kmp1.core.domain.EmptyResult
 import org.nhta.nhta_kmp1.core.domain.Result
