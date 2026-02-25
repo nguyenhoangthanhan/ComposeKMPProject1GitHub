@@ -2,7 +2,6 @@
 package org.nhta.nhta_kmp1.book.presentation.book_detail
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -10,7 +9,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.rememberScrollState
@@ -35,11 +33,11 @@ import composekmpproject1.composeapp.generated.resources.languages
 import composekmpproject1.composeapp.generated.resources.pages
 import composekmpproject1.composeapp.generated.resources.rating
 import composekmpproject1.composeapp.generated.resources.synopsis
+import org.jetbrains.compose.resources.stringResource
 import org.nhta.nhta_kmp1.book.presentation.book_detail.components.BlurredImageBackground
 import org.nhta.nhta_kmp1.book.presentation.book_detail.components.BookChip
 import org.nhta.nhta_kmp1.book.presentation.book_detail.components.ChipSize
 import org.nhta.nhta_kmp1.book.presentation.book_detail.components.TitledContent
-import org.jetbrains.compose.resources.stringResource
 import org.nhta.nhta_kmp1.core.presentation.SandYellow
 import kotlin.math.round
 
