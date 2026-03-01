@@ -6,12 +6,14 @@ import org.koin.core.module.dsl.singleOf
 import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.bind
 import org.koin.dsl.module
+import org.nhta.nhta_kmp1.book.SelectedBookViewModel
 import org.nhta.nhta_kmp1.book.data.database.DatabaseFactory
 import org.nhta.nhta_kmp1.book.data.database.FavoriteBookDatabase
 import org.nhta.nhta_kmp1.book.data.network.KtorRemoteBookDataSource
 import org.nhta.nhta_kmp1.book.data.network.RemoteBookDataSource
 import org.nhta.nhta_kmp1.book.data.repository.DefaultBookRepository
 import org.nhta.nhta_kmp1.book.domain.BookRepository
+import org.nhta.nhta_kmp1.book.presentation.book_detail.BookDetailViewModel
 import org.nhta.nhta_kmp1.book.presentation.book_list.BookListViewModel
 import org.nhta.nhta_kmp1.core.data.HttpClientFactory
 
