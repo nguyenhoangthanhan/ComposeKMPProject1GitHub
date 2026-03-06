@@ -21,7 +21,6 @@ import org.nhta.nhta_kmp1.book.presentation.book_detail.BookDetailViewModel
 import org.nhta.nhta_kmp1.book.presentation.book_list.BookListScreenRoot
 import org.nhta.nhta_kmp1.book.presentation.book_list.BookListViewModel
 
-
 @Composable
 @Preview
 fun App() {

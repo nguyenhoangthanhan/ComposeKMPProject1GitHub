@@ -3,7 +3,6 @@ package org.nhta.nhta_kmp1.app
 import kotlinx.serialization.Serializable
 
 sealed interface Route {
-
     @Serializable
     data object BookGraph: Route
 
